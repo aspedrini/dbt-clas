@@ -1,3 +1,4 @@
+-- customers model
 with 
 cte_tb1 as (
 select * , first_value(customer_id)
